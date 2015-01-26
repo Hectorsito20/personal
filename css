@@ -1,0 +1,462 @@
+/* RESET STYLES */
+
+/* main color > #DF0024 */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	background: rgba(0,0,0,0.5) url(../img/bodybg.png);
+}
+header, hgroup, article, section, aside, footer, nav {
+	display: block;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	font-weight: 300;
+} 
+
+
+/* HEADER */
+
+header {
+	width: 100%;
+	color: white;
+}
+
+.innerTop {
+	width: 100%;
+	height: 40px;
+	background: white;
+	z-index: 100;
+	position: relative;
+	background-color: #ADD94E; 
+}
+
+.topHeader {
+	width: 100%;
+	height: 40px;
+	background: ;
+	margin: 0 auto;
+	z-index: 3;
+}
+
+.topHeader > #logo {
+	margin-top: 0;
+	float: left;
+	width: auto;
+	height: 40px;
+	width: 38px;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	border-radius: ;
+	margin-left: 30px;
+}
+
+.topHeader #logo img {
+	width: 100%;
+	height: 100%;
+}
+
+/*  #mainNav  */
+
+#mainNav {
+	width: 700px;
+	float: left;
+	display: inline-block;
+	height: auto;
+	margin-top: 10px;
+}
+
+#mainNav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-left: 100px;
+}
+
+#mainNav ul li {
+	
+	float: left;
+	margin-right: 0;
+	border-right: 1px solid #f2f2f2;
+}
+
+#mainNav li:last-child {
+	border: none;
+}
+
+
+#mainNav ul li a  {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 9px 32px;
+	font-weight: ;
+	color: white;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#mainNav ul li a:hover {
+	color: white;
+}
+
+
+
+/* End nav  */
+
+/* SocialME */
+
+.topHeader .contact {
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+
+}
+
+.topHeader .contact > a {
+	text-decoration: none;
+	margin-right: 6px;
+	
+}
+
+.contact > a img {
+	width: 25px;
+	height: 25px;
+}
+
+/* Header content start here */
+
+header {
+	height: 300px;
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	background: url(../img/photos/header.jpg) no-repeat 0 -100px;
+}
+
+.des-header {
+	width: 500px;
+	height: 70px;
+	float: left;
+	margin-left: 200px;
+	padding-top: 130px;
+}
+
+.des-header > h1 {
+	font-size: 16px;
+	margin-bottom: 12px;
+	background-color: #ADD94E;
+	padding: 7px 20px;
+	display: inline;
+}
+
+.des-header > p {
+	font-size: 14px;
+	font-weight:;
+	margin-top: 10px;
+}
+
+
+/* content 
+*********************************************************************/
+
+#container {
+	width: 84%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	margin: 0  auto;
+	background: white;
+	-webkit-box-shadow: rgba(0,0,0,.8) 0px 0px 15px;
+}
+
+/* wrapper */
+
+#wrapper {
+	width: 100%;
+	position: relative;
+	margin: 50px auto;
+	padding: 1%;
+	margin-left: 17px;
+
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* services */
+
+#services {
+	width: 100%;
+	height: auto;
+	position: relative;
+
+}
+
+#services > h2 {
+	margin: 40px 0;
+	text-align: center;
+}
+
+#services > p {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+#services .design {
+	width: 517px;
+	font-size: 14px;
+	margin-right: 40px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#services .web {
+	width: 517px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0; 
+	text-align: center;
+}
+
+.size {
+	font-size: 14px;
+}
+
+.size > h3 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 17px;
+	margin-top: 7px;
+}
+
+.imgD {
+	float: left;
+	margin-right: 12px;
+	display: inline-block;
+	width: auto;
+}
+
+.img  h1, p {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.desD {
+	float: left;
+	display: inline-block;
+	text-align: left;
+	width: 435px;
+
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+	width: 100%;
+	position: relative;
+	margin: 60px 0;
+}
+
+#portfolio > h2 {
+	margin: 30px 0;
+	text-align: center;
+}
+
+#portfolio .works {
+	overflow: hidden;
+	width: 517px;
+	height: 260px;
+	margin: 0 40px 40px 0 ;
+	background-color: #cecece;
+	box-shadow: rgba(0,0,0,.7) 0 0 4px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+#portfolio .works  a {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	padding: 5px 0 8px;
+	left: 0;
+	background-color: #ADD94E;
+	color: white;
+
+	text-decoration: none;
+
+	/* CSS3 */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+#portfolio .rightW {
+	margin-right: 0;
+}
+
+/* NEW UPDATES */
+
+#portfolio .works a > span {
+	padding: 0 10px;
+}
+
+
+.centerRadio {
+	width: auto;
+
+}
+
+
+
+
+
+
+/* ABOUT ME */
+
+#about {
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.sizeAbout {
+	width: 74%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 0;
+	text-align: left;
+}
+
+#about .hector {
+	float: left;
+	width: 22%;
+	height: 20%;
+	
+}
+
+.dAbout {
+	margin-right: 0;
+}
+
+#about .hector > img {
+	width: 100%;
+}
+
+#about > h2 {
+
+	margin: 30px 0;
+}
+
+
+/* HABILIDADES / SKILL / */
+
+.skill h3 {
+	padding: 6px 0;
+	text-align: center;
+}
+
+.skill {
+	position: absolute;
+	margin-left: 30px;
+	background: #cecece;
+	width: 816px;
+	left: 230px;
+	margin-top: 20px;
+
+}
+
+.skill ul, li {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	text-align: left;
+}
+
+.skill li {
+	background: #f2f2f2;
+	width: 388px;
+	float: left;
+	text-align: left;
+	padding: 5px 10px;
+	border-top: 1px solid white;
+	list-style: none;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+	width: 100%;
+	background-color: #ADC94E;
+	height: 100px;
+	text-align: center;
+	color: white;
+	margin-top: 100px;
+}
+
+footer  .innerFooter {
+	width: 60%;
+	padding: 20px 0;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.innerFooter > p {
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing:.4px;
+	margin: 0 auto;
+}
+.socialFooter  a {
+	margin-top: 10px;
+	display: inline-block;
+}
+.socialFooter  a img {
+	border-radius: 50%;
+	width: 28px;
+}
+footer .socialFooter {
+	display: block;
+	margin: 0;
+
+}
+
+/* RESPONSIVE DESIGN */
+
+/*
+
+@media screen and (min-width:270px) and (max-width: 640px) {
+	#mainNav {
+		display: block;
+		background: white;
+		border-bottom: 1px solid black;
+	}
+}
+
+*/
